@@ -2,7 +2,7 @@
 
 SELECT
     i.name,
-    COUNT(aie.entity) AS NumberOfEntities
+    COUNT(aie.entity) AS "Nombre d'entités"
 FROM
     intermediary i
     JOIN assoc_inter_entity aie ON i.id = aie.inter
@@ -11,4 +11,4 @@ GROUP BY
 HAVING
     COUNT(aie.entity) > 5
 ORDER BY
-    NumberOfEntities DESC;
+    COUNT(aie.entity) DESC;
