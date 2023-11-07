@@ -1,7 +1,7 @@
 -- Lister les intermédiaires qui ont des associations avec plus de 5 entités
 
 SELECT
-    i.name,
+    i.name as "Nom de l'intermédiaire",
     COUNT(aie.entity) AS "Nombre d'entités"
 FROM
     intermediary i

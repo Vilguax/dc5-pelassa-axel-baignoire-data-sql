@@ -1,3 +1,6 @@
 -- Sélectionner tous les noms des entités
 
-SELECT name FROM entity;
+SELECT 
+    name 
+FROM 
+    entity;
