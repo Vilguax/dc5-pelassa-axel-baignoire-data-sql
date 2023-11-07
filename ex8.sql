@@ -1,8 +1,8 @@
 -- Trouver tous les officiers et intermédiaires qui ont une association
 
 SELECT 
-  o.name AS OfficerName, 
-  i.name AS IntermediaryName
+  o.name AS "Nom officier", 
+  i.name AS "Nom intermediare"
 FROM 
   assoc_inter_offi aio
 JOIN 
