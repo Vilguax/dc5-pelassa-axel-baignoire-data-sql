@@ -4,5 +4,5 @@
 Piscine SQL sur le scandale Panama Papers
 
 ## Objectifs
-- [] Créer 15 requetes SQL
-- [] Découvrir qui est le fraudeur
+- [ ] Créer 15 requetes SQL
+- [ ] Découvrir qui est le fraudeur
